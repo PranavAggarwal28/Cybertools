@@ -15,3 +15,7 @@ response = client.recv(4096)
 
 print(response.decode())
 client.close()
+
+
+#this program is basically a simpler version of how the internal works when we write www.google.com in the browser. It creates a TCP connection to the server and sends a GET request to retrieve the homepage of Google. The response from the server is then printed to the console.   
+
